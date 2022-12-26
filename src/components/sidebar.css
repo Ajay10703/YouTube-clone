@@ -1,0 +1,23 @@
+.sidebar{
+    width: 230px;
+    overflow-y: scroll;
+    height: 92vh;
+}
+.btn-holder span{
+    font-weight: 500;
+    font-size: 15px;
+}
+.btn-holder .bi{
+    font-size: 20px;
+}
+.side-headings{
+    font-size: 18px;
+}
+.btn-holder{
+    width: 200px;
+    margin: 0px auto;
+}
+.btn-holder:hover{
+    background-color: #9992;
+    border-radius: 5px;
+}
