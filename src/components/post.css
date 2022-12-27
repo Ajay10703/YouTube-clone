@@ -1,0 +1,28 @@
+.post-img{
+    max-width: 100%;
+    max-height: 100%;
+   background-size: contain;
+   border-radius: 10px;
+}
+.p-top{
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    
+}
+.channel-img{
+    width: 40px ;
+    height: 40px;
+    
+}
+.col-md-3{
+    padding: 5px!important;
+    
+}
+.offset{
+    margin-left: 230px;
+}
+.channel-name, .post-View{
+    font-size: 12px;
+
+}

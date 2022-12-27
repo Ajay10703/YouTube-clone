@@ -7,7 +7,7 @@ const Sidebar = () => {
 
     
   return (
-    <div className="sidebar ">
+    <div className="sidebar " id='sidebar'>
       {TopBtn.map((b)=>(<div className="btn-holder py-1">
        <i class={b.icon}></i>
        <span>{b.name}</span>

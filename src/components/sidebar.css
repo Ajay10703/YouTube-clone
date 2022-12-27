@@ -1,7 +1,13 @@
 .sidebar{
     width: 230px;
     overflow-y: scroll;
+   position: fixed;
     height: 92vh;
+}
+#sidebar2{
+    width: 80px;
+    display: none;
+      overflow-x: hidden;
 }
 .btn-holder span{
     font-weight: 500;
@@ -17,7 +23,15 @@
     width: 200px;
     margin: 0px auto;
 }
+.btn-holder2{
+    width: 70px;
+    margin: 0px auto;
+}
 .btn-holder:hover{
     background-color: #9992;
     border-radius: 5px;
+}
+.btn-holder .minbtn{
+    font-size:12px;
+   
 }
