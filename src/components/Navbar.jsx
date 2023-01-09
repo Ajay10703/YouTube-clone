@@ -7,10 +7,12 @@ const Navbar = () => {
     :document.querySelector('#sidebar').style.display="block";
     show?  document.querySelector('#sidebar2').style.display="block"
      :document.querySelector('#sidebar2').style.display="none";
+     show? document.querySelector('#posts').style.marginLeft="80px"
+    :document.querySelector('#posts').style.marginLeft="230px";
 setShow(!show)
     }
     return (
-        <nav className="py-2 navbar-light  bg-light">
+        <nav className="py-2 navbar-light fixed-top bg-light">
 <div className=" d-flex justify-content-between  ">
             <div className="brand d-flex col-2">
               <button onClick={sidebarHandler} className="d-none d-md-block"><i className="bi bi-list mx-3 "></i></button>

@@ -1,37 +1,61 @@
-.sidebar{
+.sidebar {
     width: 230px;
     overflow-y: scroll;
-   position: fixed;
+    position: fixed;
     height: 92vh;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+
 }
-#sidebar2{
+ /* Firefox */
+
+#sidebar::-webkit-scrollbar {
+    display: none;
+ 
+}
+
+#sidebar2::-webkit-scrollbar {
+    display: none;
+   
+}
+
+#sidebar2 {
     width: 80px;
     display: none;
-      overflow-x: hidden;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    overflow-x: hidden;
 }
-.btn-holder span{
+
+.btn-holder span {
     font-weight: 500;
     font-size: 15px;
 }
-.btn-holder .bi{
+
+.btn-holder .bi {
     font-size: 20px;
 }
-.side-headings{
+
+.side-headings {
     font-size: 18px;
 }
-.btn-holder{
+
+.btn-holder {
     width: 200px;
     margin: 0px auto;
 }
-.btn-holder2{
+
+.btn-holder2 {
     width: 70px;
     margin: 0px auto;
 }
-.btn-holder:hover{
+
+.btn-holder:hover {
     background-color: #9992;
     border-radius: 5px;
 }
-.btn-holder .minbtn{
-    font-size:12px;
-   
+
+.btn-holder .minbtn {
+    font-size: 12px;
+
 }

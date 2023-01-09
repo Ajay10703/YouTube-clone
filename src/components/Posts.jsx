@@ -3,9 +3,9 @@ import './post.css'
 import { postData } from './Data'
 const Posts = () => {
   return (
-    <div className='posts offset  py-3 row'>
+    <div className='posts offset  py-3 row' id='posts'>
        {postData.map((p)=>(
-        <div className="post col-md-3">
+        <div className="post col-md-3 px-1">
         <div className="p-top mx-1">
         <img src={p.image}alt="" className='post-img '/>
         </div>

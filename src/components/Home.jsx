@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 import Sidebar2 from './Sidebar2';
 const Home = () => {
   return (
-    <div className='bg-light '>
+    <div className='bg-light mx-0 pt-5'>
         <Sidebar/>
         <Sidebar2/>
         <Posts/>
