@@ -19,10 +19,10 @@ setShow(!show)
                 <a className="navbar-brand" href="/"><i className="bi bi-youtube  mr-1"></i>YouTubes<sup>IN</sup></a>
             </div>
                 <div className="input-group col-8 justify-content-center">
-                    <input type="text" placeholder='Search' className='search-input d-none d-md-block' />
-                    <button className='btn input-btn d-none d-md-block'><i className="bi bi-search"></i></button>
+                    <input type="text" placeholder='Search' className='search-input d-none d-lg-block' />
+                    <button className='btn input-btn d-none d-lg-block'><i className="bi bi-search"></i></button>
                     
-                    <div className="icon-holder d-none d-md-block"><i className="bi bi-mic-fill "></i></div>
+                    <div className="icon-holder d-none d-lg-block"><i className="bi bi-mic-fill "></i></div>
                 </div>
                 <div className="user d-flex col-2 justify-content-end">
                     <i className="bi  bi-camera-reels mx-3"></i>
