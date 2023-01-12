@@ -22,12 +22,12 @@ setShow(!show)
                     <input type="text" placeholder='Search' className='search-input d-none d-lg-block' />
                     <button className='btn input-btn d-none d-lg-block'><i className="bi bi-search"></i></button>
                     
-                    <div className="icon-holder d-none d-lg-block"><i className="bi bi-mic-fill "></i></div>
+                <div className="icon-holder d-none d-lg-block"><i className="bi bi-mic-fill"></i></div>    
                 </div>
                 <div className="user d-flex col-2 justify-content-end">
                     <i className="bi  bi-camera-reels mx-3"></i>
                     <i className="bi  bi-bell mx-3"></i>
-                    <i className="bi bi-search d-md-none "></i>
+                    <i className="bi bi-search d-lg-none "></i>
                     <i className="bi bi-person-circle mx-3"></i>
                 </div>
             

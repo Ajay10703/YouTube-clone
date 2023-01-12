@@ -61,7 +61,10 @@
 }
 @media screen and (max-width: 600px) {
    .sidebar {
-    display: none;
+    display: none!important;
+   }
+   .sidebar2 {
+    display: none!important;
    }
    .posts{
     margin-left: 0px!important;
