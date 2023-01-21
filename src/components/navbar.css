@@ -20,6 +20,7 @@ button{
     height: 40px;
     width: 500px;
     margin: 0px;
+    outline: none;
     border:solid #7775 1px  ;
     border-top-left-radius: 20px;  
     border-bottom-left-radius: 20px; 
