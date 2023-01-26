@@ -3,10 +3,12 @@
     overflow-y: scroll;
     position: fixed;
     height: 92vh;
+    padding-top: 10px;
     -ms-overflow-style: none; 
     scrollbar-width: none;
 
 }
+
  /* Firefox */
 
 #sidebar::-webkit-scrollbar {
@@ -21,7 +23,7 @@
 
 #sidebar2 {
     width: 80px;
-    display: none;
+  
     -ms-overflow-style: none; 
     scrollbar-width: none; 
     overflow-x: hidden;

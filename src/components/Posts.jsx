@@ -1,9 +1,10 @@
 import React from 'react'
 import './post.css'
 import { postData } from './Data'
-const Posts = () => {
+const Posts = (props) => {
+ 
   return (
-    <div className='posts offset px-md-3 px-1 py-3 row' id='posts'>
+    <div className={`posts px-md-3 px-1 row ${props.margin}`} id='posts'  >
        {postData.map((p)=>(
         <div className="post col-lg-4 col-xl-3 col-md-6  px-1">
         <div className="p-top mx-1">

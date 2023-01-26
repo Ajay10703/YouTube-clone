@@ -19,13 +19,20 @@
     padding: 5px!important;
     
 }
-.offset{
+.sideb{
     margin-left: 230px;
 }
+
+.sides{
+    margin-left: 80px;
+
+}
+
 .channel-name, .post-View{
     font-size: 12px;
 
 }
 .posts{
     margin-right: 0px!important;
+    margin-top: 60px;
 }

@@ -1,21 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './navbar.css'
-const Navbar = () => {
-    const [show,setShow]=useState(true)
-    const sidebarHandler=()=>{
-    show? document.querySelector('#sidebar').style.display="none"
-    :document.querySelector('#sidebar').style.display="block";
-    show?  document.querySelector('#sidebar2').style.display="block"
-     :document.querySelector('#sidebar2').style.display="none";
-     show? document.querySelector('#posts').style.marginLeft="80px"
-    :document.querySelector('#posts').style.marginLeft="230px";
-setShow(!show)
-    }
+
+const Navbar = (props) => {
+    
     return (
-        <nav className="py-2 navbar-light fixed-top bg-light">
+        <nav className="py-2  navbar-light fixed-top bg-light">
 <div className=" d-flex justify-content-between  ">
             <div className="brand d-flex col-2">
-              <button onClick={sidebarHandler} className="d-none d-md-block"><i className="bi bi-list mx-3 "></i></button>
+              <button onClick={props.ck} className="d-none d-md-block"><i className="bi bi-list mx-3 "></i></button>
                 <a className="navbar-brand" href="/"><i className="bi bi-youtube  mr-1"></i>YouTubes<sup>IN</sup></a>
             </div>
                 <div className="input-group col-8 justify-content-center">
