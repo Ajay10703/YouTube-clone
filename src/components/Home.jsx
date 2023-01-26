@@ -13,14 +13,7 @@ const Home = () => {
   const sidebarHandler=()=>{
       setShowed(show?<Sidebar2/>:<Sidebar/>);
       setmar(show?"sides":"sideb");
-      
-//     show? document.querySelector('#sidebar').style.display="none"
-//     :document.querySelector('#sidebar').style.display="block";
-//     show?  document.querySelector('#sidebar2').style.display="block"
-//      :document.querySelector('#sidebar2').style.display="none";
-//      show? document.querySelector('#posts').style.marginLeft="80px"
-//     :document.querySelector('#posts').style.marginLeft="230px";
-setShow(!show)
+      setShow(!show)
   }
 
 
